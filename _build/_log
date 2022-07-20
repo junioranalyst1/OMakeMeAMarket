@@ -1,0 +1,60 @@
+### Starting build.
+# Target: main.mli.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:mli, file:main.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules main.mli > main.mli.depends # cached
+# Target: main.cmi, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:mli, file:main.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o main.cmi main.mli # cached
+# Target: main.ml.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:ml, file:main.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules main.ml > main.ml.depends # cached
+# Target: command.mli.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:mli, file:command.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules command.mli > command.mli.depends # cached
+# Target: command.cmi, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:mli, file:command.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o command.cmi command.mli # cached
+# Target: gui.mli.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:mli, file:gui.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules gui.mli > gui.mli.depends # cached
+# Target: gui.cmi, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:mli, file:gui.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o gui.cmi gui.mli # cached
+# Target: marketmaker.mli.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:mli, file:marketmaker.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules marketmaker.mli > marketmaker.mli.depends # cached
+# Target: marketmaker.cmi, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:mli, file:marketmaker.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o marketmaker.cmi marketmaker.mli # cached
+# Target: parse.mli.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:mli, file:parse.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules parse.mli > parse.mli.depends # cached
+# Target: parse.cmi, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:mli, file:parse.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o parse.cmi parse.mli # cached
+# Target: stats.mli.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:mli, file:stats.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules stats.mli > stats.mli.depends # cached
+# Target: trader.mli.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:mli, file:trader.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules trader.mli > trader.mli.depends # cached
+# Target: trader.cmi, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:mli, file:trader.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o trader.cmi trader.mli # cached
+# Target: stats.cmi, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:mli, file:stats.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o stats.cmi stats.mli # cached
+# Target: main.cmo, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:cmo, extension:ml, file:main.cmo, file:main.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o main.cmo main.ml # cached
+# Target: command.ml.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:ml, file:command.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules command.ml > command.ml.depends # cached
+# Target: command.cmo, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:cmo, extension:ml, file:command.cmo, file:command.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o command.cmo command.ml # cached
+# Target: gui.ml.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:ml, file:gui.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules gui.ml > gui.ml.depends # cached
+# Target: gui.cmo, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:cmo, extension:ml, file:gui.cmo, file:gui.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o gui.cmo gui.ml # cached
+# Target: marketmaker.ml.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:ml, file:marketmaker.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules marketmaker.ml > marketmaker.ml.depends # cached
+# Target: marketmaker.cmo, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:cmo, extension:ml, file:marketmaker.cmo, file:marketmaker.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o marketmaker.cmo marketmaker.ml # cached
+# Target: parse.ml.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:ml, file:parse.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules parse.ml > parse.ml.depends # cached
+# Target: parse.cmo, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:cmo, extension:ml, file:parse.cmo, file:parse.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o parse.cmo parse.ml # cached
+# Target: stats.ml.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:ml, file:stats.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules stats.ml > stats.ml.depends # cached
+# Target: stats.cmo, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:cmo, extension:ml, file:stats.cmo, file:stats.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o stats.cmo stats.ml # cached
+# Target: trader.ml.depends, tags: { package(ANSITerminal), package(ounit2), package(yojson), extension:ml, file:trader.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package yojson -package ANSITerminal -modules trader.ml > trader.ml.depends # cached
+# Target: trader.cmo, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, compile, extension:cmo, extension:ml, file:trader.cmo, file:trader.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package ounit2 -package yojson -package ANSITerminal -o trader.cmo trader.ml # cached
+# Target: main.byte, tags: { package(ANSITerminal), package(ounit2), package(yojson), byte, dont_link_with, extension:byte, file:main.byte, link, ocaml, program, quiet, traverse }
+ocamlfind ocamlc -linkpkg -package ounit2 -package yojson -package ANSITerminal command.cmo gui.cmo marketmaker.cmo parse.cmo trader.cmo stats.cmo main.cmo -o main.byte
+# Compilation successful.
