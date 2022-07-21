@@ -20,6 +20,7 @@
 "Resource: /Users/nicolashoeck/Documents/GitHub/OMakeMeAMarket_Updated/marketmaker.mli": "{1\227\003\004\208w{\0317\208`5\167./"
 "Resource: /Users/nicolashoeck/Documents/GitHub/OMakeMeAMarket_Updated/gui.mli": "\003\136\253U\162\151\1817p\165u\129\144\020WB"
 "Resource: /Users/nicolashoeck/Documents/GitHub/OMakeMeAMarket_Updated/main.ml": "i\192\134\243Lp\172\\G$\n\170T\138/\251"
+"Rule: ocaml: cmo* -> byte (%=main )": "\021\212\193?l\240\203\206\151\235u/ \157\160\242"
 "Rule: ocaml dependencies mli (%=main )": "\190P\017\030\003\147+#\243{ \181\026p+\002"
 "Resource: /Users/nicolashoeck/Documents/GitHub/OMakeMeAMarket_Updated/trader.mli": "\188\131\020\222\nm=\235\169\171y\186\249a\254\211"
 "Rule: ocaml dependencies mli (%=marketmaker )": "\225!5K\218_\163\253\131/\150\179e\236\2036"

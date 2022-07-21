@@ -6,8 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Thu Jul 21 07:47:13 2022
+
+# Make data base, printed on Thu Jul 21 07:47:31 2022
 
 # Variables
 
@@ -28,7 +31,7 @@ OCAML_LSP_SERVER_LOG = -
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /Users/nicolashoeck/Documents/GitHub/OMakeMeAMarket
+CURDIR := /Users/nicolashoeck/Documents/GitHub/OMakeMeAMarket_Updated
 # makefile
 SHELL = /bin/sh
 # environment
@@ -56,7 +59,7 @@ SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.ubuXuQxIwQ/Listeners
 # environment
 CONDA_EXE = /Users/nicolashoeck/opt/anaconda3/bin/conda
 # environment
-PWD = /Users/nicolashoeck/Documents/GitHub/OMakeMeAMarket
+PWD = /Users/nicolashoeck/Documents/GitHub/OMakeMeAMarket_Updated
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -117,6 +120,7 @@ TMPDIR = /var/folders/p_/4_16g2d10cjcxz93xvlgdfdw0000gn/T/
 *F = $(notdir $*)
 # environment
 VSCODE_IPC_HOOK = /Users/nicolashoeck/Library/Application Support/Code/1.69.2-main.sock
+ 
 # environment
 MallocNanoZone = 0
 # makefile
@@ -176,9 +180,9 @@ LANG = C
 
 # Directories
 
-# . (device 16777220, inode 86222424): 30 files, no impossibilities.
+# . (device 16777220, inode 86223250): 27 files, no impossibilities.
 
-# 30 files, no impossibilities in 1 directories.
+# 27 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -223,7 +227,7 @@ zip:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-21 07:41:55
+#  Last modified 2022-07-21 07:45:49
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -302,9 +306,6 @@ check:
 finalcheck: check
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
-make: *** No rule to make target `all'.  Stop.
-
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 25):
 	bash checkzip.sh
@@ -324,6 +325,6 @@ make: *** No rule to make target `all'.  Stop.
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Jul 21 07:47:13 2022
+# Finished Make data base on Thu Jul 21 07:47:31 2022
 
  
